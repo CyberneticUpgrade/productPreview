@@ -13,7 +13,7 @@ body {
     /*border: dotted red 2px;*/
     border-radius: 8px;
     display: flexbox;
-    background-image: url(/product-preview-card-component-main/images/image-product-desktop.jpg);
+    background-image: url(/images/image-product-desktop.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: white;
