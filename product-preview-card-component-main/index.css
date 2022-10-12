@@ -26,8 +26,31 @@ body {
     height: 404px;
     display: flexbox;
     text-align: left;
+    color:rgb(87, 143, 109);
+    font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    color: black;
+    font-family: 'Fraunces', serif;
+    display:inline-flex
+}
+
+.description {
+    line-height: 1.5;
+}
+
+.price {
+    color:rgb(87, 143, 109);
+    font-size: 36px;
+    letter-spacing: -3px;
+    font-family: 'Fraunces', serif;
+}
+
+.previous_price{
+    display: inline-flexbox;
+    color:rgb(87, 143, 109);
+}
 
 .button {
     background-color: rgb(87, 143, 109); /* forest green */
@@ -38,4 +61,4 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-  }
+}
