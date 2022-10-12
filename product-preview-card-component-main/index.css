@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(233, 225, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    position: relative;
+}
+
+.product_Img {
+    width: 538px;
+    height: 404px;
+    /*border: dotted red 2px;*/
+    border-radius: 8px;
+    display: flexbox;
+    background-image: url(/product-preview-card-component-main/images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+}
+
+.prod_Information {
+    padding-left: 280px;
+    padding-top: 16px;
+    width: 260px;
+    height: 404px;
+    display: flexbox;
+    text-align: left;
+}
+
+
+.button {
+    background-color: rgb(87, 143, 109); /* forest green */
+    border-radius: 4px;
+    color: white;
+    padding: 10px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
