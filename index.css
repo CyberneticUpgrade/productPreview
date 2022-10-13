@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(233, 225, 212);
+    background-color:hsl(30, 38%, 92%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,8 +8,8 @@ body {
 }
 
 .product_Img {
-    width: 538px;
-    height: 404px;
+    width: 595px;
+    height: 448px;
     /*border: dotted red 2px;*/
     border-radius: 8px;
     display: flexbox;
@@ -20,52 +20,76 @@ body {
 }
 
 .prod_Information {
-    padding-left: 280px;
+    padding-left: 330px;
     padding-top: 16px;
     width: 260px;
     height: 404px;
-    display: flexbox;
+    display: flex;
     text-align: left;
-    color:rgb(87, 143, 109);
+    color:hsl(158, 36%, 37%);
     font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    flex-wrap: wrap;
 }
 
 h1 {
     color: black;
     font-family: 'Fraunces', serif;
-    display: inline-flex;
+    display: flexbox;
+    margin-right: 10px;
+    width: 200px;
+}
+
+h2 {
+    font-weight: 300;
+    letter-spacing: 0.4em;
+    font-family: 'Montserrat', sans-serif;
+    font-size:small;
+    display:inline-flex;
 }
 
 .description {
     line-height: 1.5;
+    margin-right: 10px;
+    width: 240px;
 }
 
 .price {
-    color:rgb(87, 143, 109);
+    color:hsl(158, 36%, 37%);
     font-size: 36px;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
     font-family: 'Fraunces', serif;
+    display: flexbox;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .previous_price{
-    display: inline-flexbox;
-    color:rgb(87, 143, 109);
+    display: flexbox;
+    color:hsl(158, 36%, 37%);
+    text-decoration: line-through;
+    flex-wrap: wrap;
+    padding: 7px;
+    text-align: center;
+    width: 100px;
+    padding-top:35px;
 }
 
 .button {
-    background-color: rgb(87, 143, 109); /* forest green */
-    border-radius: 4px;
+    background-color: hsl(158, 36%, 37%); /* forest green */
+    border-radius: 8px;
     color: white;
-    padding: 10px 70px;
+    padding: 12px 75px 10px 75px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flexbox;
     font-size: 14px;
 }
 
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    display: inline-flexbox; 
 }
 
 .attribution a { 
