@@ -7,6 +7,7 @@ body {
     position: relative;
 }
 
+/*Product image CSS manipulation*/
 .product_Img {
     width: 595px;
     height: 448px;
@@ -19,6 +20,7 @@ body {
     background-color: white;
 }
 
+/*Product information CSS Manipulation*/
 .prod_Information {
     padding-left: 330px;
     padding-top: 16px;
@@ -32,6 +34,7 @@ body {
     flex-wrap: wrap;
 }
 
+/*Hero header CSS manipulation*/
 h1 {
     color: black;
     font-family: 'Fraunces', serif;
@@ -48,6 +51,7 @@ h2 {
     display:inline-flex;
 }
 
+/*Hero text and price CSS manipulation*/
 .description {
     line-height: 1.5;
     margin-right: 10px;
@@ -75,6 +79,7 @@ h2 {
     padding-top:35px;
 }
 
+/*button and credit CSS manipulation*/
 .button {
     background-color: hsl(158, 36%, 37%); /* forest green */
     border-radius: 8px;
@@ -94,4 +99,105 @@ h2 {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/*Mobile-Friendly CSS manipulation*/
+@media only screen and (max-width: 375px){
+    *{
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color:hsl(30, 38%, 92%);
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    
+    .product_Img {
+        justify-content: center;
+        width: 100%;
+        background-image: url(images/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: auto;
+    }
+
+    .prod_Information {
+        padding-top: 277px;
+        width: 20%;
+        height: auto;
+        color:hsl(158, 36%, 37%);
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+    
+    /*Hero header CSS manipulation*/
+    h1 {
+        color: black;
+        font-family: 'Fraunces', serif;
+        display: flexbox;
+        margin-right: 10px;
+        width: 200px;
+    }
+
+    h2 {
+        font-weight: 300;
+        letter-spacing: 0.4em;
+        font-family: 'Montserrat', sans-serif;
+        font-size:small;
+        display:inline-flex;
+    }
+
+    /*Hero text and price CSS manipulation*/
+    .description {
+        line-height: 1.5;
+        margin-right: 10px;
+        width: 240px;
+    }
+
+    .price {
+        color:hsl(158, 36%, 37%);
+        font-size: 36px;
+        letter-spacing: -1px;
+        font-family: 'Fraunces', serif;
+        display: flexbox;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .previous_price{
+        display: flexbox;
+        color:hsl(158, 36%, 37%);
+        text-decoration: line-through;
+        flex-wrap: wrap;
+        padding: 7px;
+        text-align: center;
+        width: 100px;
+        padding-top:35px;
+    }
+
+    /*button and credit CSS manipulation*/
+    .button {
+        background-color: hsl(158, 36%, 37%); /* forest green */
+        border-radius: 8px;
+        color: white;
+        padding: 12px 75px 10px 75px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-flexbox;
+        font-size: 14px;
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center;
+        display: inline-flexbox; 
+    }
+    
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
 }
